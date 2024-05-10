@@ -1,4 +1,5 @@
-Proyecto Wather care
+*Proyecto Wather care*
+
 Bienvenido al proyecto Wather Care, una aplicación web que proporciona información sobre la situación actual de la sequía en Colombia, así como consejos y recursos para hacer frente a este desafío ambiental.
 
 Descripción
