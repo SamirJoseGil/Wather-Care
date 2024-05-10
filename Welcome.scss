@@ -1,0 +1,24 @@
+@import "./sass/base";
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    margin-top: 15rem;
+    margin-bottom: 4rem;
+}
+
+body {
+    background: url(./img/Welcome.jpg);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+}
+
+
+

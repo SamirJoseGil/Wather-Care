@@ -1,0 +1,76 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #333, #555, #77aaff);
+  color: white;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+header, main, footer {
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+ul {
+  padding: 0;
+  list-style-type: none; }
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+p {
+  font-weight: bold; }
+
+.aqui {
+  color: #8bbfff;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1rem; }
+
+.contenedor-botones {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.contenedor-botones a {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.479);
+  color: black;
+  text-decoration: none;
+  border-radius: 1rem;
+  transition: background-color 0.6s;
+  box-shadow: 0 0 1rem white, inset 0 0 1rem white; }
+  .contenedor-botones a:hover {
+    background-color: #ffffff; }
+
+body {
+  background: url(../../img/background-2.png);
+  background-size: cover;
+  background-color: rgba(51, 51, 51, 0.3);
+  background-blend-mode: multiply; }
+
+h1 {
+  font-size: 4rem; }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+video {
+  width: 50rem;
+  box-shadow: 0 0 1rem white, inset 0 0 1rem white; }
+
+.cuidemosElAgua {
+  width: 21rem; }
+
+.cuidemosElAgua2 {
+  width: 21rem; }
+
+img {
+  box-shadow: 0 0 1rem white, inset 0 0 1rem white; }
+
+/*# sourceMappingURL=educationalResources.css.map */

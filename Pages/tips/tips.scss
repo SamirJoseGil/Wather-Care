@@ -1,0 +1,157 @@
+@import "../../sass/base";
+
+
+body {
+    background: url(../../img/background-2.png);
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    background-size: cover;
+    overflow: auto;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-right: 5rem;
+    color: rgb(210, 252, 252);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.notes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 8px;
+}
+
+.note {
+    height: 11rem;
+    padding: 8px;
+    box-shadow: 
+    0 0 1rem rgba(255, 255, 255, 0.5),
+    inset 0 0 1rem rgba(255, 255, 255, 1);
+}
+
+.note h2 {
+    color: #333;
+}
+
+
+// Notes Background
+.note-1 {
+    background: url(../../img/note-1.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: #08282b;
+
+    h2 {
+        color: #002635;
+    }
+}
+
+.note-2 {
+    background: url(../../img/note-2.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: greenyellow;
+
+    h2 {
+        color: green;
+    }
+}
+
+.note-3 {
+    background: url(../../img/note-3.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: rgb(43, 43, 43);
+
+    h2 {
+        color: white;
+    }
+}
+
+.note-4 {
+    background: url(../../img/note-4.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: black ;
+
+    h2 {
+        color: rgb(0, 32, 75) ;
+    }
+}
+
+.note-5 {
+    background: url(../../img/note-5.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255) ;
+
+    h2 {
+        color: rgb(255, 81, 0) ;
+    }
+}
+
+.note-6 {
+    background: url(../../img/note-6.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: rgb(0, 0, 0) ;
+
+    h2 {
+        color: rgb(0, 52, 119) ;
+    }
+}
+
+.note-7 {
+    background: url(../../img/note-7.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: rgb(136, 255, 0) ;
+
+    h2 {
+        color: rgb(0, 255, 0) ;
+    }
+}
+
+.note-8 {
+    background: url(../../img/note-8.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: rgb(2, 38, 41) ;
+
+    h2 {
+        color: rgb(255, 255, 255) ;
+    }
+}
+
+.note-9 {
+    background: url(../../img/note-9.png);
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.3);
+    background-blend-mode: multiply;
+    color: rgb(102, 255, 0) ;
+
+    h2 {
+        color: rgb(0, 255, 13) ;
+    }
+}
+
+
+
